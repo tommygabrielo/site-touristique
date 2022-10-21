@@ -1,0 +1,63 @@
+.matable-striped {
+    background: #3264c8;
+    background: -webkit-linear-gradient(to right, #ff649e, #6496ff);
+    background: linear-gradient(to right, #ff649e, #6496ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px 0px #c8c8c8;
+}.matable-striped a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.matable-striped thead th, .matable-striped td{
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+.matable-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.matable-striped tbody tr:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.maform{
+    font-size: 13px;
+    color: #646464;
+    border-radius: 20px;
+}
+
+.maform input, .maform select{
+    border:0px;
+    border-bottom: 1px #8283ff solid;
+}
+
+.table-bordered {
+  border: 1px solid #000;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #000;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #000;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #000;
+}
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>site</display-name>
+  <welcome-file-list>
+    <welcome-file></welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>LoginServlet</display-name>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>net.site.controller.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>SiteServlet</display-name>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<servlet-class>net.site.controller.SiteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>LocataireServlet</display-name>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<servlet-class>net.site.controller.LocataireServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>LouerServlet</display-name>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<servlet-class>net.site.controller.LouerServlet</servlet-class>
+  </servlet>
+  
+  
+ 
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/listerSite</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/listerRechercher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/modifSite</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/editerSite</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/supprSite</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SiteServlet</servlet-name>
+  	<url-pattern>/ajouterSite</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/listerLocataire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/listerLocataireRechercher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/modifLocataire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/editerLocataire</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/supprLocataire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LocataireServlet</servlet-name>
+  	<url-pattern>/ajouterLocataire</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/listerLouer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/listerLouerRechercher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/listerLouerRechercherEntreDeuxDates</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/modifLouer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/editerLouer</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/supprLouer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LouerServlet</servlet-name>
+  	<url-pattern>/ajouterLouer</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
